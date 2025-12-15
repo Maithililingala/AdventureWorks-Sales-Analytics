@@ -29,7 +29,7 @@ Raw data from the AdventureWorks SQL database was transformed using Power Query.
 * **Preprocessing:** Standardized headers, parsed text delimiters, and added derived columns (e.g., Domain Name, Full Name).
 * **Data Model:** Implemented a **Snowflake Schema**, connecting Fact tables (`Sales`, `Returns`) to Dimension tables (`Territory`, `Customer`, `Product`). This structure enabled complex filtering across demographics and product categories.
 
-![Data Model](assets/data-model.png)
+![Data Model](assets/data-model-schema.png)
 
 ### 2. Advanced DAX Calculations
 Over 25 DAX measures were developed to support time-series analysis and dynamic aggregation.
@@ -56,14 +56,14 @@ Over 25 DAX measures were developed to support time-series analysis and dynamic 
 * **Segmentation:** High-income professionals drive the majority of revenue.
 * **Top Customer:** Mr. Maurice Shan was identified as the highest-value customer, highlighting opportunities for VIP loyalty programs.
 
-![Customer Detail](assets/customer-view.png)
+![Customer Detail](assets/customer-detail.png)
 
 ### Product Performance
 **Insights:**
 * **Quality Control:** "Sport-100 Helmets" showed high return rates, flagging potential quality issues.
 * **Category Trends:** Accessories and Bikes dominate order volume.
 
-![Product Detail](assets/product-view.png)
+![Product Detail](assets/product-detail.png)
 
 ---
 
