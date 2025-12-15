@@ -29,7 +29,7 @@ Raw data from the AdventureWorks SQL database was transformed using Power Query.
 * [cite_start]**Preprocessing:** Standardized headers, parsed text delimiters, and added derived columns (e.g., Domain Name, Full Name)[cite: 49, 55].
 * [cite_start]**Data Model:** Implemented a **Snowflake Schema**, connecting Fact tables (`Sales`, `Returns`) to Dimension tables (`Territory`, `Customer`, `Product`)[cite: 86]. [cite_start]This structure enabled complex filtering across demographics and product categories[cite: 87].
 
-![Data Model](assets/data_model.png)
+![Data Model](assets/data-model.png)
 
 ### 2. Advanced DAX Calculations
 [cite_start]Over 25 DAX measures were developed to support time-series analysis and dynamic aggregation[cite: 91].
@@ -48,21 +48,21 @@ Raw data from the AdventureWorks SQL database was transformed using Power Query.
 [cite_start]**Insights:** * Weekly revenue peaked in Jan 2022, suggesting strong seasonal/holiday influence[cite: 300].
 * [cite_start]Identified a recent dip in monthly revenue coupled with an uptick in return rates[cite: 302].
 
-![Executive Dashboard](assets/exec_dashboard.png)
+![Executive Dashboard](assets/exec-dashboard.png)
 
 ### Customer Analysis
 **Insights:**
 * [cite_start]**Segmentation:** High-income professionals drive the majority of revenue[cite: 235].
 * [cite_start]**Top Customer:** Mr. Maurice Shan was identified as the highest-value customer, highlighting opportunities for VIP loyalty programs[cite: 236].
 
-![Customer Detail](assets/customer_view.png)
+![Customer Detail](assets/customer-view.png)
 
 ### Product Performance
 **Insights:**
 * [cite_start]**Quality Control:** "Sport-100 Helmets" showed high return rates, flagging potential quality issues[cite: 301].
 * [cite_start]**Category Trends:** Accessories and Bikes dominate order volume[cite: 301].
 
-![Product Detail](assets/product_view.png)
+![Product Detail](assets/product-view.png)
 
 ---
 
